@@ -1,0 +1,48 @@
+{
+  "name": "playground-inferno",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "build:shake": "parcel build --experimental-scope-hoisting src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baetheus/playground-inferno.git"
+  },
+  "author": "Brandon Blaylock (brandon@null.pub)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/baetheus/playground-inferno/issues"
+  },
+  "homepage": "https://github.com/baetheus/playground-inferno#readme",
+  "dependencies": {
+    "@angular/core": "^6.1.9",
+    "@most/core": "^1.3.2",
+    "@most/hold": "^3.0.0",
+    "@most/scheduler": "^1.2.1",
+    "@most/types": "^1.0.1",
+    "@ngrx/store": "^6.1.0",
+    "fp-ts": "^1.8.1",
+    "inferno": "^5.1.1",
+    "inferno-create-element": "^5.1.1",
+    "inferno-redux": "^5.6.1",
+    "inferno-router": "^5.6.1",
+    "io-ts": "^1.3.0",
+    "monocle-ts": "^1.2.0",
+    "most-subject": "^6.0.0",
+    "redux": "^4.0.0",
+    "rx-fsa": "^1.0.5",
+    "rxjs": "^6.3.3",
+    "shortid": "^2.2.13"
+  },
+  "devDependencies": {
+    "@types/node": "^10.10.3",
+    "@types/shortid": "0.0.29",
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "typescript": "^3.0.3"
+  }
+}
